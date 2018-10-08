@@ -4,11 +4,20 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "ajv": "^6.5.4",
+    "fork-ts-checker-webpack-plugin": "^0.4.10",
     "next": "^7.0.1",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2"
   },
   "scripts": {
-      "dev": "next"
+    "dev": "next"
+  },
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1"
   }
 }
