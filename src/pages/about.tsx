@@ -1,12 +1,9 @@
-import Link from 'next/link';
+import Layout from '../components/layout';
 
 const About = () => (
-  <div>
-    <Link href={'/'}>
-      <a>Index Page</a>
-    </Link>
+  <Layout>
     <p>This is the about page</p>
-  </div>
+  </Layout>
 );
 
 export default About;
