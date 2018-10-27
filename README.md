@@ -12,3 +12,7 @@ https://github.com/akgw/HelloWorldNextjs/commit/7a17bb8bb38df134e452816046ba5c77
 
 # layout componentの追加
 https://github.com/akgw/HelloWorldNextjs/commit/c91a3f3bcd5ed11e00fcdc23114d250bc6c34046
+
+# reduxの追加
+https://github.com/zeit/next.js/tree/master/examples/with-redux
+https://qiita.com/monzou/items/8ff07258a42042075d7b

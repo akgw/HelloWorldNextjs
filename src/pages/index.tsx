@@ -1,9 +1,20 @@
+import React from 'react';
+import { connect } from 'react-redux';
 import Layout from '../components/layout';
 
-const Index = () => (
-  <Layout>
-    <p>Hello Next.js</p>
-  </Layout>
-);
+class Index extends React.Component {
+  // static getInitialProps({reduxStore, req}) {
+  //
+  //   return {}
+  // }
 
-export default Index;
+  render() {
+    return (
+      <Layout>
+        <p>Hello Next.js</p>
+      </Layout>
+    );
+  }
+}
+
+export default connect()(Index);
